@@ -1,0 +1,13 @@
+
+
+{% block characters %}
+
+<h2> Etoy en Characters </h2>
+
+
+{% for character in characters %}        
+	<p> {{character.name}} </p>
+    <p> {{character.planet}} </p>
+{% endfor %}
+
+{% endblock %}
